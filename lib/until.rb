@@ -2,6 +2,8 @@ require 'pry'
 
 def using_until
   levitation_ force = 6
+  binding.pry 
+  
 until levitation_force == 10 
   puts "Wingardium Leviosa"
  levitation_force += 1 
